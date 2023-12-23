@@ -1,16 +1,6 @@
 #ifndef _FILE_H_
 #define _FILE_H_
 #define Max_Size 10
-/*-----------------------------------1D Array Section-----------------------------------*/
-void Int1D(int *Arr ,const int Len);
-void Print1D(int *Arr ,const int Len);
-int Sum1D(int *Arr ,const int Len);
-void MaxandMin(int *Arr ,const int Len ,int *Max ,int *Min);
-void EvenandOdd(int *Arr ,const int Len ,int *Even ,int *Odd);
-void CpyArr(int *Arr1 , int *Arr2 ,int Len);
-void InsElem(int *Arr ,int Len ,int Elem ,int Pos);
-void DelElem(int *Arr ,int Len ,int Pos);
-void CountFreq(int *Arr ,int Len ,int *Freq);
 
 /*-----------------------------------2D Array Section----------------------------------*/
 void Int2D(int Arr[][Max_Size] , int Row , int Col);
