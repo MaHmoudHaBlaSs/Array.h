@@ -133,7 +133,7 @@ int main()
             switch (Operation)
             {
                 case 1 :
-                    if(R1 == C1)
+                    if((R1 == R2) && (C1 == C2))
                     {
                         AddTwoMat(A,B,Result_Arr,R1,C1);
                         Print2D(Result_Arr,R1,C1);
@@ -144,7 +144,7 @@ int main()
                     }
                 break;
                 case 2 :
-                    if(R1 == C1)
+                    if((R1 == R2) && (C1 == C2))
                     {
                         SubtractTwoMat(A,B,Result_Arr,R1,C1);
                         Print2D(Result_Arr,R1,C1);
@@ -183,7 +183,7 @@ int main()
             printf("Out Of Range OPeration !\n");
         }
         printf("Press Esc to Exit , Else to Continue ... \n");
-        Sentinel = getch();
+        Sentinel = getch(); // get character
     }
     
     return 0;
